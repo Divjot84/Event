@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recent Events</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <img id="logo" src="LEAD_white 34@2x.png" alt="Logo">
+    <button class="hamburger" id="hamburger">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#events">Events</a>
+      <a href="#sponsors">Sponsors</a>
+      <a href="#ourteam">Our Team</a>
+      <a href="#contact">Contact Us</a>
+      <button class="theme-toggle" id="themeToggle">
+        <span id="themeIcon">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Section Title -->
+  <h1 class="section-title leMagnify">
+    <span>R</span><span>E</span><span>C</span><span>E</span><span>N</span><span>T</span>
+    <span>&nbsp;</span>
+    <span>E</span><span>V</span><span>E</span><span>N</span><span>T</span><span>S</span>
+  </h1>
+
+  <!-- Carousel -->
+  <div class="carousel-wrapper">
+    <div class="slides" id="slidesContainer">
+
+      <!-- Card 1 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Images/event1.jpg" alt="Event 1" />
+            <h2>Event Title 1</h2>
+          </div>
+          <div class="flip-card-back">
+            <h2>Event Title 1</h2>
+            <p>Event description or details go here.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Images/event2.jpg" alt="Event 2" />
+            <h2>Event Title 2</h2>
+          </div>
+          <div class="flip-card-back">
+            <h2>Event Title 2</h2>
+            <p>Event description or details go here.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Images/event3.jpg" alt="Event 3" />
+            <h2>Event Title 3</h2>
+          </div>
+          <div class="flip-card-back">
+            <h2>Event Title 3</h2>
+            <p>Event description or details go here.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Carousel Controls -->
+    <div class="controls">
+      <button class="control-btn" id="prevBtn">‹</button>
+      <button class="control-btn" id="nextBtn">›</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
